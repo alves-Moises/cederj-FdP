@@ -30,8 +30,11 @@ def play_game():
     choice = check_museum()
 
     # executa a entrada pelo local escolhido
-    museum[choice]()
-
+    print("Etapa 1:")
+    first_step = museum[choice]()
+    if(first_step["Lifes"] == 0):
+        print("Fim de jogo")
+        return
     #seccond step
 
     #third step
