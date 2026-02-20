@@ -2,7 +2,7 @@
 def frente_play():
     print("Entrada de frente:")
     def check_input():
-        valid = False()
+        valid = False
         while not valid:
             values = input("Digite três valores:")
 
