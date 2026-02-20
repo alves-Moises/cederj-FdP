@@ -7,6 +7,7 @@ def frente_play():
             values = input("Digite três valores:")
 
             try:
+                values = input("Digite três valores:")
                 values = values.split()
 
                 x = int(values[0])
