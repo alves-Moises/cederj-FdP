@@ -36,8 +36,10 @@ def main():
     while Continue:
         play_game()
         
-        choice = check_museum()
-
+        Continue = input("Deseja continuar? 1 - Sim, 2 - não") == "1"
+        print("=" * 30)
+        
+    print("Fim de jogo.")
 
 # inicializacao do programa
 if __name__ == "__main__":
