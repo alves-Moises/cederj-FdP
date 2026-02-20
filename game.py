@@ -36,5 +36,6 @@ def play_game():
         print("Fim de jogo")
         return
     #seccond step
+    
 
     #third step
