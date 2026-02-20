@@ -34,6 +34,7 @@ def main():
 
 
     while Continue:
+        play_game()
         
         choice = check_museum()
 
