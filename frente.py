@@ -24,8 +24,9 @@ def frente_play():
 
         return arr_values
 
-    def play(x, y, z):
-        print(x, y, z)
+    def check_combination(x, y, z):
+        return ((294 / x == y) and (y / x == z))
+
 
     values = check_input()
     play(*values)
