@@ -1,3 +1,4 @@
+from game import play_game
 # funcao generica para validar entrada de valor inteiro
 def check_int():
     valid = False
