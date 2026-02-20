@@ -17,6 +17,8 @@ def frente_play():
                 arr_values = [x, y, z]
             except ValueError:
                 print("Valores incorretos...")
+            except IndexError:
+                print("Esperava-se TRÊS valores...")
             else:
                 valid = True
 
