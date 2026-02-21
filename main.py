@@ -18,7 +18,7 @@ def main():
     while Continue:
         play_game()
         
-        Continue = input("Deseja continuar? 1 - Sim, 2 - não") == "1"
+        Continue = input("Deseja continuar? sim || nao\nR:  ") == "sim"
         print("=" * 30)
         
     print("Fim de jogo.")
