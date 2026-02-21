@@ -12,14 +12,14 @@ def select_item():
         except:
             print("Digite novamente")
         else:
-            if(len(item_list) == 2):
-                valid = True
+            if(len(item_list) != 2):
+                valid = False
 
             for item in item_list:
                 if(not(item in items)):
                     print("Entrada inválida")
                     valid = False
                     break
-                
+
     return item_list
             
