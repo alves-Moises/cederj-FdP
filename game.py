@@ -38,4 +38,12 @@ def play_game():
     #seccond step
     
 
-    #third step
+    # ================
+    # third step
+    player_stats["Choice"] = choice
+
+    final_stage(**player_stats)
+    
+        
+
+    
