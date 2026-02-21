@@ -52,6 +52,3 @@ def play_game():
 
     final_stage(**player_stats)
     
-        
-
-    
