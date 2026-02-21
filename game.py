@@ -1,6 +1,9 @@
-from frente import frente_play
-from servico import servico_play
-from telhado import telhado_play
+from first_step.frente import frente_play
+from first_step.servico import servico_play
+from first_step.telhado import telhado_play
+from seccond_step.get_items import select_item
+from third_step.dark_room import final_stage
+
 
 # pede pro usuario escolher a entrada e valida a escolha
 def check_museum():
