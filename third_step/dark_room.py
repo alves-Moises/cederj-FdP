@@ -1,6 +1,5 @@
 def final_stage(Passed, Lifes, Items, Choice):
 
-
     combination_list = {
         "frente": {
             "combination": {"lanterna", "chave"},
