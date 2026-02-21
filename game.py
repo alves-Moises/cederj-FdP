@@ -35,8 +35,12 @@ def play_game():
     if(first_step["Lifes"] == 0):
         print("Fim de jogo")
         return
-    #seccond step
     
+    # ================
+    # seccond step
+    item_list = select_item()
+    player_stats["Items"] = item_list
+
 
     # ================
     # third step
